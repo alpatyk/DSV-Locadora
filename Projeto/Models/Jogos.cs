@@ -7,9 +7,9 @@ public class Jogos
     [Key]
     private int _jogoId;
     private string? _titulo;
-    private string _descricao;
+    private string? _descricao;
     private string? _genero;
-    private float _preco;
+    private float? _preco;
     
 
     [Key]
